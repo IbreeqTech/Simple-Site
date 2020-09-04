@@ -26,10 +26,11 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            {title || "Hi, we're"} <span className="text-color-main">{name || 'IbreeqTech'}</span>
+            {title || "Hi, we're"}{' '}
+            <span className="text-color-main">{name || 'iBreeqTech Group'} </span>
             <br />
             {subtitle ||
-              'We build your online prescense for you, so that you can focus on your business.'}
+              'We build your online presence for you, so that you can focus on your business.'}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
