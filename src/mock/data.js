@@ -27,6 +27,27 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'AGANASHAPP.png',
+    title: 'American Gastroenterological Association NASH App',
+    info:
+      'The ITG team has been very happy to work with the THOR design studio on this project. It has been our honor to help in producing this cross platform applications to help medical proffesionals more quickly and easily diagnose patients and provide educational information for the NASH/NAFLD. See below for more information on the App',
+    info2:
+      'American Gastroenterological Association’s NASH Clinical Care Pathway app is for use in any setting where health care professionals care for patients with NAFLD and NASH, including primary care, endocrine, obesity medicine and gastroenterology practices.Developed with support by independent medical education grants from Intercept Pharmaceuticals, Inc., Pfizer Inc., Allergan, and Genfit.',
+    url: 'https://apps.apple.com/us/app/aga-nash-app/id1589270847',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'FairfaxMedicalLab.png',
+    title: 'American Medical Lab',
+    info:
+      'American Medical Lab is locally based in Northern Virginia which has partnered with the ITG team to provide software and hardware solutions to meet their everyday operational needs. Everything from booking and payments online to server setup',
+    info2: '',
+    url: 'https://fairfaxmedlab.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'pfb.png',
     title: 'People For Bikes',
     info:
@@ -37,23 +58,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'UniPro.png',
-    title: 'UniPro Health',
-    info:
-      'Unipro Health has been a pioneer in their field. Sourceing and providing medical safety wear during these difficult times, and supporting our nation and its heros. It was our pleasure to work with them in quickly setting up their online prescence using shopify and providing custom design and code work. Not only do we make sure that their site looked amazing, but that they could reach the largest possible audiance by integrating analytics software to push their SEO to the next level',
-    info2: '',
-    url: 'https://uniprohealth.com/',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'inspolytics.png',
     title: 'The Inspolytics Group',
     info:
       'The Inspolytics Group has been a long time partner of ITG. So when they came to us and asked us to update their site we pulled out all the stops. Using the latest CMS and SEO optimizing technology to make sure that they could easily edit and analyze their site. Our amazing designers were also able to put a beautiful and modern aesthetic together for them that gave the Inspolytics Group a unique and modern feel.',
     info2: '',
-    url: 'https://inspolytics.com/staging/',
-    repo: 'https://github.com/willmca/NASA-frontend', // if no repo, the button will not show up
+    url: 'https://inspolytics.com/',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
